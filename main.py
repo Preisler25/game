@@ -114,6 +114,11 @@ def testIfNull(temp, Map):
     else:
         return False
 #endregion
+#region Test if Over
+def testIfOver(Map):
+    if 0 not in Map.values():
+        return True
+#endregion
 #region Main
 def main():
     ingame = True
@@ -126,6 +131,9 @@ def main():
             break
         gameMap = keydown(user_input, gameMap)
         gameMap = genRandom(gameMap)
+        if testIfOver(gameMap):
+            print("Game Over")
+            break
         print(f"{gameMap[0,0]} {gameMap[1,0]} {gameMap[2,0]} {gameMap[3,0]}\n{gameMap[0,1]} {gameMap[1,1]} {gameMap[2,1]} {gameMap[3,1]}\n{gameMap[0,2]} {gameMap[1,2]} {gameMap[2,2]} {gameMap[3,2]}\n{gameMap[0,3]} {gameMap[1,3]} {gameMap[2,3]} {gameMap[3,3]}")
 main()
 #endregion
