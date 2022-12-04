@@ -35,6 +35,6 @@ Mozgást
 isEnd
 
 
-        if szabad hely vége a jateknak
+        nincs szabad hely vége a jateknak
         össze adja az összes pontot
 
