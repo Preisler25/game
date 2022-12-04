@@ -1,12 +1,12 @@
 Map
 
-    """
+
         4X4 map
-    """
+
 
 Obj template
 
-    """
+
         id 00tol-33ig
         
         pl 23:
@@ -17,25 +17,24 @@ Obj template
 
 
         value = 2^
-    """
+
 
 GenMap
 
-    """
         For végig megy és kirajzolja pályát
-    """
+
 
 Mozgást
 
-    """
+
         key down
         id alapján check
         value added
-    """
+
 
 isEnd
 
-    """
+
         if szabad hely vége a jateknak
         össze adja az összes pontot
-    """
+
