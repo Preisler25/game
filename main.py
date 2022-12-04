@@ -24,8 +24,10 @@ def getInputs():
 def wantToPlay(Map, temp):
     if temp == "0":
         return False
-    else:
+    elif temp == "w" or "a" or "s" or "d":
         return True
+    else:
+        return False
 
 def keydown(event, Map):
     match event:
