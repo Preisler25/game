@@ -42,6 +42,7 @@ def keydown(event, Map):
         case other:
             print("")
 #endregion
+
 #region Movement
 def moveUp(Map):
     for x in range(3, -1, -1):
